@@ -1,0 +1,2 @@
+[console_scripts]
+bib = wiki_bib.cli:cli
