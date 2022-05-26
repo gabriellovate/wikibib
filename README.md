@@ -26,7 +26,7 @@ For the instructions, you will need to have installed:
 
 * [Visual Studio Code](https://code.visualstudio.com/)
 
-* A recent version of [Python3](https://www.python.org/downloads/) (Python3.9+)
+* A recent version of [Python3](https://www.python.org/downloads/) (Python3.8+)
 
 It is also recommended (but not strictly necessary) to havn:
 
