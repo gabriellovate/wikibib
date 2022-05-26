@@ -12,6 +12,7 @@ It is aimed at facilitaing the daily habit of reading research articles. It was 
 You can check an example of a query dashboard for readings at [lubianat.github.io/wikidata_bib](https://lubianat.github.io/wikidata_bib).
 
 
+## Instalation
 
 See [SETUP.md](./SETUP.md) for instructions on how to install it, and [USAGE.md](./USAGE.md) for instructions on how to use it. 
 
@@ -28,5 +29,4 @@ It is also recommended (but not strictly necessary) to havn:
 
 * [GitHub Command Line Interface](https://cli.github.com/)
 
-## Instalation
 

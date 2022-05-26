@@ -40,10 +40,17 @@ git remote set-url origin git@github.com:$OWNER/$REPO.git
 ```
 
 Then create an empty repository on GitHub. 
-You can do this at <https://github.com/new> or via the [GitHub command line interface](https://github.com/cli/cli) (if installed) with `gh repo create`.
-Make sure to use the same "Owner" and "Repository name" specified above.
-Do not initialize the repository, other than optionally adding a Description.
-Next, push your cloned manuscript:
+
+```sh
+gh repo create
+```
+And select
+ * Push an existing local repository to GitHub
+ * Visibility  > Public
+ * Add a remote > Y
+
+If you do not have [GitHub command line interface](https://github.com/cli/cli) installed, do this at <https://github.com/new>. 
+Make sure to use the same "Owner" and "Repository name" specified above. Next, push your cloned manuscript:
 
 ```sh
 git push --set-upstream origin main
@@ -68,17 +75,13 @@ After installing the pip package, just run in the command line
 bib read Q18507561
 ```
 
-Don't worry about any errors that might pop up at this step. 
-
 A vscode window for notes will appear on your screen.
-It has some categories and links, but don't worry about that just now. 
-You can check the [USAGE.md](./USAGE.md) file for instructions on that.
+You can check the [USAGE.md](./USAGE.md) file for details.
 
 The file has been created under the `notes` folder. 
 Save it, and come back to the terminal. 
 
-On the terminal, you may now run `./wlog`, which will commit your reading, and push it to GitHub.
-
+On the terminal, you may now run `bib log`, which will commit your reading, and push it to GitHub.
 
 ## Set up the dashboard via GitHub Pages
 
@@ -91,15 +94,6 @@ xdg-open https://github.com/$OWNER/$REPO/settings/pages
 ```
 
 After a short time, you should be able to access your dashboard already via GitHub pages, at `$OWNER.github.io/$REPO`. 
-
-```bash
-xdg-open https://$OWNER.github.io/$REPO
-```
-
-Sometimes there is a bug on GH Pages and you'll have to wait for the initial page to show up. 
-It should be fixed with time. 
-
-Your dashboard will nevertheless be available quickly at
 
  ```bash
  xdg-open https://$OWNER.github.io/$REPO/index.html
