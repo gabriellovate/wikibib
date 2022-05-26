@@ -25,9 +25,9 @@ REPO=bib
 **Execute the remaining commands verbatim.**
 They do not need to be edited (if the setup works as intended).
 
+You might have to run  **all commands as`sudo`, specially if you are using a Windows Subsystem for Linux.** 
 Next you must clone `wikibib/wikibib` and reconfigure the remote repositories. 
 
-Note that you might have to run the commands as `sudo`, specially if you are using a Windows Subsystem for Linux. 
 
 ```sh
 # Clone manubot/rootstock
@@ -72,7 +72,9 @@ See the instructions for that [here](https://code.visualstudio.com/docs/setup/li
 
 # Read your first article
 
-After installing the pip package, just run in the command line
+After installing the pip package, just run in the command line.
+ 
+ 
 
 ```bash
 bib read Q18507561
