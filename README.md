@@ -15,7 +15,7 @@ You can check an example of a query dashboard for readings at [lubianat.github.i
 ## Instalation
 
 Currently, WikiBib is mostly tested on Linux (Ubuntu). 
-If you use Windows you can install the Windows Subsystem for Linux ([tutorial here](https://allthings.how/how-to-use-linux-terminal-in-windows-10/0)) and then proceed with the installation normally. 
+If you use Windows you can install the Windows Subsystem for Linux (WSL; [tutorial here](https://allthings.how/how-to-use-linux-terminal-in-windows-10/0)) and then proceed with the installation normally. The process for installing WSL should take less than 30 minutes in our experience. 
 
 See [SETUP.md](./SETUP.md) for instructions on how to install it, and [USAGE.md](./USAGE.md) for instructions on how to use it. 
 
