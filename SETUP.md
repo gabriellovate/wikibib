@@ -24,8 +24,6 @@ REPO=bib
 
 **Execute the remaining commands verbatim.**
 They do not need to be edited (if the setup works as intended).
-
-You might have to run  **all commands as`sudo`, specially if you are using a Windows Subsystem for Linux.** 
 Next you must clone `wikibib/wikibib` and reconfigure the remote repositories. 
 
 
@@ -61,7 +59,8 @@ git push --set-upstream origin main
 
 # Install WikiBib
 
-To install WikiBib just run
+To install WikiBib just run:
+
 ```bash
 pip3 install -e . 
 ```
@@ -74,8 +73,6 @@ See the instructions for that [here](https://code.visualstudio.com/docs/setup/li
 
 After installing the pip package, just run in the command line.
  
- 
-
 ```bash
 bib read Q18507561
 ```
