@@ -25,7 +25,9 @@ REPO=bib
 **Execute the remaining commands verbatim.**
 They do not need to be edited (if the setup works as intended).
 
-Next you must clone `wikibib/wikibib` and reconfigure the remote repositories:
+Next you must clone `wikibib/wikibib` and reconfigure the remote repositories. 
+
+Note that you might have to run the commands as `sudo`, specially if you are using a Windows Subsystem for Linux. 
 
 ```sh
 # Clone manubot/rootstock
