@@ -46,13 +46,14 @@ Then create an empty repository on GitHub.
 ```sh
 gh repo create
 ```
-And select
+And run the default options.
  * Push an existing local repository to GitHub
  * Visibility  > Public
  * Add a remote > Y
 
-If you do not have [GitHub command line interface](https://github.com/cli/cli) installed, do this at <https://github.com/new>. 
-Make sure to use the same "Owner" and "Repository name" specified above. Next, push your cloned manuscript:
+You may also create a new repository manually at <https://github.com/new>, just make sure to use the same "Owner" and "Repository name" specified above. 
+
+Next, push your repository:
 
 ```sh
 git push --set-upstream origin main
