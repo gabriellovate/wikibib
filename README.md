@@ -11,7 +11,6 @@ It is aimed at facilitaing the daily habit of reading research articles. It was 
 
 You can check an example of a query dashboard for readings at [lubianat.github.io/wikidata_bib](https://lubianat.github.io/wikidata_bib).
 
-
 ## Instalation
 
 ### On Linux
@@ -20,13 +19,15 @@ See [SETUP.md](./SETUP.md) for instructions on how to install it, and [USAGE.md]
 
 ### On Windows
 
-Currently, WikiBib is mostly tested on Linux (Ubuntu). 
+Currently, WikiBib has no support on Windows. 
 
-If you use Windows, you can:
+If you use Windows, you may try:
   
   - install the Windows Subsystem for Linux ([tutorial here](https://allthings.how/how-to-use-linux-terminal-in-windows-10/0)). 
   - rund the first two steps of the VSCode for WSL [tutorial](https://code.visualstudio.com/docs/remote/wsl)
-  - proceed with the Linux installation
+  - proceed with the Linux installation at [SETUP.md](./SETUP.md) 
+
+Beware that this will likely **not** work. Any help with troubleshooting tWikiBib on Windows is very welcome!
 
 # Requirements
 
