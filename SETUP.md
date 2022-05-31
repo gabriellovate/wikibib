@@ -28,17 +28,14 @@ They do not need to be edited (if the setup works as intended).
 Next you must clone `wikibib/wikibib` and reconfigure the remote repositories:
 
 ```sh
-# Clone manubot/rootstock
+# Clone wikibib/wikibib
 git clone --single-branch https://github.com/wikibib/wikibib.git $REPO
 cd $REPO
 
-# Configure remotes
-git remote add rootstock https://github.com/wikibib/wikibib.git
+# Add template as one remote (useful for pulling future updates)
+git remote add template https://github.com/wikibib/wikibib.git
 
-# Option A: Set origin URL using its web address via SSH
-git remote set-url origin git@github.com:$OWNER/$REPO.git
 ```
-
 Then create an empty repository on GitHub. 
 
 ```sh
