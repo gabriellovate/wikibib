@@ -24,8 +24,8 @@ REPO=bib
 
 **Execute the remaining commands verbatim.**
 They do not need to be edited (if the setup works as intended).
+Next you must clone `wikibib/wikibib` and reconfigure the remote repositories. 
 
-Next you must clone `wikibib/wikibib` and reconfigure the remote repositories:
 
 ```sh
 # Clone wikibib/wikibib
@@ -41,13 +41,14 @@ Then create an empty repository on GitHub.
 ```sh
 gh repo create
 ```
-And select
+And run the default options.
  * Push an existing local repository to GitHub
  * Visibility  > Public
  * Add a remote > Y
 
-If you do not have [GitHub command line interface](https://github.com/cli/cli) installed, do this at <https://github.com/new>. 
-Make sure to use the same "Owner" and "Repository name" specified above. Next, push your cloned manuscript:
+You may also create a new repository manually at <https://github.com/new>, just make sure to use the same "Owner" and "Repository name" specified above. 
+
+Next, push your repository:
 
 ```sh
 git push --set-upstream origin main
@@ -55,7 +56,8 @@ git push --set-upstream origin main
 
 # Install WikiBib
 
-To install WikiBib just run
+To install WikiBib just run:
+
 ```bash
 pip3 install -e . 
 ```
@@ -66,8 +68,8 @@ See the instructions for that [here](https://code.visualstudio.com/docs/setup/li
 
 # Read your first article
 
-After installing the pip package, just run in the command line
-
+After installing the pip package, just run in the command line.
+ 
 ```bash
 bib read Q18507561
 ```
